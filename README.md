@@ -16,3 +16,5 @@ npm start
 The Application Will run on localhost:3000
 ## Credits
 Made By <a href="https://www.linkedin.com/in/ronak-surana-944550205/" target="_blank">Ronak Surana</a>
+## Note
+After you type any word or letter you have wait for data to fetch.
