@@ -1,0 +1,120 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    /* background-color: aqua; */
+    width: 100%;
+    padding: 10px;
+}
+
+.navbar-1{
+    width:70%;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-1 div{
+    font-weight: bold;
+    font-size: larger;
+}
+
+.navbar-1 input{
+    margin-top: 10px;
+    border: 2px solid black;
+    width: 30%;
+}
+
+.navbar-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
+
+.navbar-2 button{
+    background-color: rgb(8, 158, 8);
+    border-radius: 5px;
+    color:white;
+    padding: 10px;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 5px;
+    padding: 35px;
+    row-gap: 5px;
+}
+
+.card-box{
+    border:2px solid black;
+    padding: 20px;
+}
+
+.card-box button{
+    background-color: rgb(8, 158, 8);
+    border-radius: 5px;
+    color:white;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width:700px) {
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        /* background-color: aqua; */
+        width: 100%;
+        padding: 10px;
+    }
+    
+    .navbar-1{
+        width:100%;
+        /* background-color: blueviolet; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .navbar-1 input{
+        margin-top: 15px;
+        border: 2px solid black;
+        width: 70%;
+    }
+    
+    .navbar-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 20px;
+    }
+    
+    .card-container{
+        display: grid;
+        grid-template-columns: auto ;
+        column-gap: 5px;
+        padding: 35px;
+        row-gap: 5px;
+    }
+    
+    .card-box{
+        border:2px solid black;
+        padding: 15px;
+        text-align: center;
+    }
+    
+    .card-box button{
+        background-color: rgb(8, 158, 8);
+        border-radius: 5px;
+        color:white;
+        padding: 5px;
+        margin-top: 20px;
+    }
+    
+}
