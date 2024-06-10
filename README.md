@@ -12,4 +12,6 @@ React JS, Open Library API
 git clone https://github.com/RonakSurana-2001/Personal-Bookshelf.git
 npm install
 npm start
-```
+```  
+## Credits
+Made By <a href="https://www.linkedin.com/in/ronak-surana-944550205/" target="_blank">Ronak Surana</a>
