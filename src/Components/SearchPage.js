@@ -63,6 +63,7 @@ function SearchPage() {
           <button onClick={() => navigate('/MyBooks')}>My BookShelf</button>
         </div>
       </div>
+    <div>{searchBox}</div>
       <div className='card-container'>
         {!loading && searchData.map((info, index) =>
           <div className='card-box' key={index}>
